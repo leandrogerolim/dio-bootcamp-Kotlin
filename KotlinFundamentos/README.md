@@ -2,13 +2,16 @@
 
 ## Kotlin Experience Bootcamp
 
-### Atividades
+## Atividades
 
 [SRC/MAIN/KOTLIN](https://github.com/leandrogerolim/dio-bootcamp-Kotlin/tree/main/KotlinFundamentos/src/main/kotlin).
 
-1 - Hello World.
+### **1 - Hello World.**
 
-2 - Funções 
+### **2 - Funções**
+
+### **3 - Funções VarArg **
+****
 
 Criado por DIO.
 
