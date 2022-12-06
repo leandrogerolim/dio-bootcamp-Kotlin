@@ -18,6 +18,9 @@
 
 ### **6 - Classes**
 
+### **7 - Classes Genéricas**
+
+### **8 - Funções Genéricas**
 
 
 Criado por DIO.
