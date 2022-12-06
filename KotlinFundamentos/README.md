@@ -10,8 +10,9 @@
 
 ### **2 - Funções**
 
-### **3 - Funções VarArg **
-****
+### **3 - Funções VarArg**
+
+### **4 - Variáveis Var e Val**
 
 Criado por DIO.
 
