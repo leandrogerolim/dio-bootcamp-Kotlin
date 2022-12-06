@@ -6,23 +6,30 @@
 
 ## Atividades
 
-[SRC/MAIN/KOTLIN](https://github.com/leandrogerolim/dio-bootcamp-Kotlin/tree/main/KotlinFundamentos/src/main/kotlin).
+[SRC/MAIN/KOTLIN](https://github.com/leandrogerolim/dio-bootcamp-Kotlin/tree/main/EstruturaControleFluxoColecoesKotlin/src/main/kotlin).
+## Controle de Fluxo: 
 
-### **1 - Hello World.**
+### **1 - When Statement.**
 
-### **2 - Funções**
+### **2 - When Expression**
 
-### **3 - Funções VarArg**
+### **3 - Loops: For / While e do while / Iterators**
 
-### **4 - Variáveis Var e Val**
+### **4 - Ranges: Loops com Int Ranges: Ifs e loops com Char**
 
-### **5 - Null Safety Nulidade**
+### **5 - Verificações de Igualdade == e ===**
 
-### **6 - Classes**
+### **6 - Expressão Condicional**
 
-### **7 - Classes Genéricas**
+## Coleções: 
 
-### **8 - Funções Genéricas**
+### **1 - Listas (List)**
+
+### **2 - Conjuntos (Set)**
+
+### **3 -Mapas (Map)**
+
+### **4 - Funções Úteis**
 
 
 Criado por DIO.
@@ -30,3 +37,13 @@ Criado por DIO.
 [Curso DIO](https://web.dio.me/track/kotlin-experience).
 
 [Documentação Oficial Kotlin](https://kotlinlang.org/docs/home.html).
+
+
+
+
+
+
+
+
+
+
