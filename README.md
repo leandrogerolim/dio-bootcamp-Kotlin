@@ -5,4 +5,4 @@
 
 Criado por DIO.
 
-[Curso Udemy](https://web.dio.me/track/kotlin-experience)
+[Curso DIO](https://web.dio.me/track/kotlin-experience)
