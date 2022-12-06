@@ -14,6 +14,8 @@
 
 ### **4 - Variáveis Var e Val**
 
+### **5 - Null Safety Nulidade**
+
 Criado por DIO.
 
 [Curso DIO](https://web.dio.me/track/kotlin-experience).
