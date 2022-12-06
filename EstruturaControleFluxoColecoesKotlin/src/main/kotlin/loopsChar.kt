@@ -8,6 +8,6 @@
         for (c in 'z' downTo 's' step 2) { // 2 imprime do ultimo para o prmeiro pulando de dois em dois .
             print(c)
         }
-        print(" ")
+        print(" " )
 
     }
