@@ -1,3 +1,5 @@
+package ControleDeFluxo
+
 fun main() {
     cases("Hello")
     cases(1)
