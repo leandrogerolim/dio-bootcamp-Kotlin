@@ -2,34 +2,40 @@
 
 ## Kotlin Experience Bootcamp
 
-## Estruturas de Controle de Fluxo e Coleções em Kotlin
+## Orientação a Objetos e Tipos de Classes na Prática com Kotlin
 
 ## Atividades
 
-[SRC/MAIN/KOTLIN](https://github.com/leandrogerolim/dio-bootcamp-Kotlin/tree/main/EstruturaControleFluxoColecoesKotlin/src/main/kotlin).
+[SRC/MAIN/KOTLIN](https://github.com/leandrogerolim/dio-bootcamp-Kotlin/tree/main/Orienta%C3%A7%C3%A3o%20a%20Objetos%20e%20Tipos%20de%20Classes%20na%20Pr%C3%A1tica%20com%20Kotlin/POO/src/main).
 ## Controle de Fluxo: 
 
-### **1 - When Statement.**
+### **1 - Abstração.**
 
-### **2 - When Expression**
+### **2 - Encapsulamento**
 
-### **3 - Loops: For / While e do while / Iterators**
+### **3 - Herança**
 
-### **4 - Ranges: Loops com Int Ranges: Ifs e loops com Char**
+### **4 -Polimorfismo**
 
-### **5 - Verificações de Igualdade == e ===**
+### **5 - POO com Kotlin: Exemplos Que Vamos Explorar**
 
 ### **6 - Expressão Condicional**
 
-## Coleções: 
+## POO na prática com kotlin: 
 
-### **1 - Listas (List)**
+### **1 - Herança Simples**
 
-### **2 - Conjuntos (Set)**
+### **2 - Herança Com Construtor Parametrizado**
 
-### **3 -Mapas (Map)**
+### **3 - Herança Passando Argumentos do Construtor para a Superclasse**
 
-### **4 - Funções Úteis**
+### **4 - Data Classes**
+
+### **5 - Enum Classes**
+
+### **6 - Sealed Classes**
+
+### **7 - Object Keyword**
 
 
 Criado por DIO.
