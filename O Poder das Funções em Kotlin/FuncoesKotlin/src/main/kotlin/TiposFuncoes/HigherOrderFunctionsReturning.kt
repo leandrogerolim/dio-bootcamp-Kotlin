@@ -1,7 +1,10 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun operation(): (Int) -> Int {                                     // 1 retorna uma outra função
+    return ::square
+}
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun square(x: Int) = x * x                                          // 2 recebe um inteiro e retorna um inteiro  x multiplica x
+
+fun main() {
+    val func = operation()                                          // 3  variavel fun  recebe o operation
+    println(func(2))                                                // 4 o valor de fun é 2 que faz 2*2 com resultado 4
 }
