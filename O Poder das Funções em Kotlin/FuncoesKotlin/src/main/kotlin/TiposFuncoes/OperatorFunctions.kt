@@ -1,7 +1,10 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    operator fun Int.times(str: String) = str.repeat(this)       // 1
+    println(2 * "Bye ")                                          // 2
+
+    operator fun String.get(range: IntRange) = substring(range)  // 3
+    val str = "Always forgive your enemies; nothing annoys them so much."
+    println(str[0..14])                                          // 4
+
 }
