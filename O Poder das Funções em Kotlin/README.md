@@ -2,40 +2,42 @@
 
 ## Kotlin Experience Bootcamp
 
-## Orientação a Objetos e Tipos de Classes na Prática com Kotlin
+## O Poder das Funções em Kotlin
 
 ## Atividades
 
-[SRC/MAIN/KOTLIN](https://github.com/leandrogerolim/dio-bootcamp-Kotlin/tree/main/Orienta%C3%A7%C3%A3o%20a%20Objetos%20e%20Tipos%20de%20Classes%20na%20Pr%C3%A1tica%20com%20Kotlin/POO/src/main).
-## Controle de Fluxo: 
+[SRC/MAIN/KOTLIN](https://github.com/leandrogerolim/dio-bootcamp-Kotlin/tree/main/O%20Poder%20das%20Fun%C3%A7%C3%B5es%20em%20Kotlin/FuncoesKotlin/src/main/kotlin).
+## Funções de Escopo: 
 
-### **1 - Abstração.**
+### **1 - Let.**
 
-### **2 - Encapsulamento**
+### **2 - Run**
 
-### **3 - Herança**
+### **3 - With**
 
-### **4 -Polimorfismo**
+### **4 -Apply**
 
-### **5 - POO com Kotlin: Exemplos Que Vamos Explorar**
+### **5 - Also**
 
-### **6 - Expressão Condicional**
 
-## POO na prática com kotlin: 
 
-### **1 - Herança Simples**
+## Tipos de Funções: 
 
-### **2 - Herança Com Construtor Parametrizado**
+### **1 - Infix Functions**
 
-### **3 - Herança Passando Argumentos do Construtor para a Superclasse**
+### **2 - Operator Functions**
 
-### **4 - Data Classes**
+### **3 - Higher Order Functions Parameters**
 
-### **5 - Enum Classes**
+### **4 -Higher Order Functions Returning**
 
-### **6 - Sealed Classes**
+### **5 - Lambda Functions**
 
-### **7 - Object Keyword**
+### **6 - Extension Functions e Properties**
+
+### **7 - Extension Functions Generics**
+
+### **8 - Suspend Functions**
 
 
 Criado por DIO.
