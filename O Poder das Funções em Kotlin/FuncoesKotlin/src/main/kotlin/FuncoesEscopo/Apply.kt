@@ -1,7 +1,15 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+data class Person(var name: String, var age: Int, var about: String) {
+    constructor() : this("", 0, "")  //blocos de atribuições.
+}
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+
+    val jake = Also()                                     // 1
+    val stringDescription = jake.apply {                    // 2 atribui um to string
+        name = "Jake"                                       // 3
+        age = 30
+        about = "Android developer"
+    }.toString()                                            // 4
+
+    println(stringDescription)
 }

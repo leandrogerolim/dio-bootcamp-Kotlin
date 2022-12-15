@@ -1,7 +1,16 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+data class Also(var name: String, var age: Int, var about: String) {
+    constructor() : this("", 0, "")
+}
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun writeCreationLog(p: Also) {
+    println("A new person ${p.name} was created.")
+}
+
+fun main() {
+
+    val jake = Also("Jake", 30, "Android developer")   // 1
+        .also {                                          // 2
+            writeCreationLog(it)                         // 3 it é o person ou o jake
+        }
+
 }

@@ -1,7 +1,15 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {                                            // é como o this dentro do construtor.  chama a propriedade de maneira direta.
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    fun getNullableLength(ns: String?) {
+        println("for \"$ns\":")
+        ns?.run {                                                  // 1 chama a função direta sem o it.isEmpty()
+            println("\tis empty? " + isEmpty())                    // 2
+            println("\tlength = $length")
+            length                                                 // 3 retorna a propriedade direto
+        }
+    }
+    getNullableLength(null)
+    getNullableLength("")
+    getNullableLength("some string with Kotlin")
+
 }
