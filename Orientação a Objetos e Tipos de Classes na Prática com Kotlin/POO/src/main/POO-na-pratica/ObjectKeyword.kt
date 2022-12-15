@@ -1,6 +1,6 @@
 import java.util.Random
 
-class LuckDispatcher {                    //1
+class LuckDispatcher {                    //1 um tipo de dado com aplicação unica
     fun getNumber() {                     //2
         var objRandom = Random()
         println(objRandom.nextInt(90))
