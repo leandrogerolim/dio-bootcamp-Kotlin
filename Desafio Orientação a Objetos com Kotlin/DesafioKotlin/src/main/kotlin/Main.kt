@@ -21,13 +21,13 @@ data class Formacao(val nome: String, var conteudos: List<ConteudoEducacional>) 
 }
 
         fun main() {
-            val ConteudoEducacional = ConteudoEducacional()Educacional()
 
 
             val nivel = Nivel.DIFICIL
             val message = when (nivel) {
                 Nivel.DIFICIL -> "DIFICIL"
                 Nivel.BASICO -> "DIFICIL"
+
                 Nivel.INTERMEDIARIO -> "DIFICIL"
             }
             println(message)
