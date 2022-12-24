@@ -1,32 +1,28 @@
+
 fun main() {
-    val entrada: String? = readLine()
+    val numeroRomano: String? = readLine()
 
-    // Utiliza o conceito de "destructuring" para atribuir cada parte da data (dia/mes/ano).
-    // Referência: https://kotlinlang.org/docs/destructuring-declarations.html
-    val (dia, mes, ano) = entrada!!.split("/")
+    val numerosRomanos = mapOf(
+        'I' to 1,
+        'V' to 5,
+        'X' to 10,
+        'L' to 50,
+        'C' to 100,
+        'D' to 500,
+        'M' to 1000
+    )
+    var resultado = 0
 
-    val mesPorExtenso = when (mes.toInt()) {
+    for (i in numeroRomano!!.indices) {
+        val atual = numerosRomanos.getValue(numeroRomano[i])
 
-              1 ->  ("Janeiro")
-              2 ->  ("Fevereiro")
-              3 ->  ("Março")
-              4 ->  ("Abril")
-              5 ->  ("Maio")
-              6 ->  ("Junho")
-              7 ->  ("Julho")
-              8 ->  ("Agosto")
-              9 ->  ("Setembro")
-              10 ->  ("Outubro")
-              11 ->  ("Novembro")
-              12 ->  ("Dezembro")
+        resultado += if((i > 0) && (atual > numerosRomanos.getValue(numeroRomano[i - 1]))){
+            atual - (2 * numerosRomanos.getValue(numeroRomano[i - 1]))
 
-
-
-            else -> {
-                 println("Mês Inválido!")
-             }
+        }else{
+            atual
         }
 
-
-    println("$dia de ${mesPorExtenso} de $ano")
+    }
+    print(resultado)
 }
