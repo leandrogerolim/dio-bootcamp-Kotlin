@@ -3,24 +3,15 @@
 ## Kotlin Experience Bootcamp
 
 Desafio
-Faça um programa que calcule e imprima o salário a ser transferido para um funcionário.
+Supondo que a população de um país A tenha N habitantes com uma taxa anual de crescimento de 3% e que a população de B M habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
-Para realizar o calculo receba o valor bruto do salário e o adicional dos benefícios.
-O salário a ser transferido é calculado da seguinte maneira: 
-
-(valor bruto do salário - percentual de imposto mediante ao salário) + adicional dos benefícios
-
-Para calcular o percentual de imposto segue as aliquotas:
-
-    De R$ 0.00 a R$ 1100.00 = 5.00%
-    De R$ 1100.01 a R$ 2500.00 = 10.00%
-    Maior que R$ 2500.00 = 15.00%
+Obs: O valor inicial da população A deverá ser sempre menor que do país B
 
 Entrada
-A entrada consiste em vários arquivos de teste, que conterá o valor bruto do salário e adicional dos benefícios. Conforme mostrado no exemplo de entrada a seguir.
+A entrada consiste em dois valores inteiros, sendo N a população do país A e M a população do país B.
 
 Saída
-Para cada arquivo da entrada, terá um arquivo de saída. E como mencionado no Desafio, será gerado uma linha com um número que será a diferença entre o valor bruto do salário e o percentual de imposto mediante a faixa salárial somado com o adicional dos benefícios. Use o exemplo abaixo para clarear o que está sendo pedido.
+A saída consiste em retornar o número de anos necessários para que a população do país A ultrapasse ou iguale a população B, mantidas as taxas de crescimento. Confira exemplo abaixo:
 
 *****************************************
 ### Resultado:

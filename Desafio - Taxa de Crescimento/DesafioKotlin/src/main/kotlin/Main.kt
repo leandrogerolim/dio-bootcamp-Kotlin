@@ -1,24 +1,27 @@
-object ReceitaFederal {
-    fun calcularImposto(salario: Double): Double {
-        val aliquota = when {
-            (salario >= 0 && salario <= 1100) -> 0.05
-            (salario >= 1100.01 && salario <= 2500.00) -> 0.10
-            (salario > 2500.00) -> 0.15
-            else -> {
-                "salario maior"
-            }
-        }
-        return aliquota as Double * salario
-
+data class Pais(var habitantes: Double, val taxaCrescimento: Double) {
+    fun crescerPopulacaoAnual() {
+        habitantes += habitantes * (taxaCrescimento / 100.0)
     }
 }
 
 fun main() {
-    val valorSalario = readLine()!!.toDouble();
-    val valorBeneficios = readLine()!!.toDouble();
+    val habitantesPaisA = readLine()!!.toDouble();
+    val habitantesPaisB = readLine()!!.toDouble();
+    val paisA = Pais(habitantesPaisA, taxaCrescimento = 3.0)
+    val paisB = Pais(habitantesPaisB, taxaCrescimento = 1.5)
 
-    val valorImposto = ReceitaFederal.calcularImposto(valorSalario);
-    val saida = valorSalario - valorImposto + valorBeneficios;
+    var quantidadeAnos = 0
+    while (paisA.habitantes < paisB.habitantes) {
+        paisA.crescerPopulacaoAnual()
+        paisB.crescerPopulacaoAnual()
+        quantidadeAnos ++
 
-    println(String.format("%.2f", saida));
+
+    }
+
+    println("$quantidadeAnos anos")
 }
+
+
+//   TODO("Invocar a função que consolida o crescimento anual de cada [Pais]")
+//  TODO("Garantir de a variável mutável $quantidadeAnos seja atualizada")
