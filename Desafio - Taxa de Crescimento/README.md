@@ -16,7 +16,7 @@ A saída consiste em retornar o número de anos necessários para que a populaç
 *****************************************
 ### Resultado:
 
-![image](https://user-images.githubusercontent.com/92825608/209444853-0afb5105-6263-4d34-9d53-4ee2fbc7adef.png) / ![image](https://user-images.githubusercontent.com/92825608/209444864-07690049-03a4-44ce-9aa4-a53d0a5b83d9.png) / ![image](https://user-images.githubusercontent.com/92825608/209444883-1d8366f2-fed0-415d-8937-605822ce2231.png)
+![image](https://user-images.githubusercontent.com/92825608/209446218-fcb7041c-0166-436d-9fd1-0970b7b56d24.png) / ![image](https://user-images.githubusercontent.com/92825608/209446233-6c625e03-0ba7-4278-b82b-80b4d76237fa.png)
 
 
 
