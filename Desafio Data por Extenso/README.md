@@ -14,6 +14,11 @@ As saídas serão as mesmas datas da entrada porém, com o mês escrito por exte
 *****************************************
 ### Resultado:
 
+![image](https://user-images.githubusercontent.com/92825608/209444258-a0af7b98-756f-4e3b-aded-d4a22c26c91a.png) / ![image](https://user-images.githubusercontent.com/92825608/209444274-4023262c-b9a1-4e64-ab3b-c2389dd38299.png) / ![image](https://user-images.githubusercontent.com/92825608/209444292-331ef347-62f8-4110-bde1-c53ef819e44e.png)
+
+
+
+
 
 
 
