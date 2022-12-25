@@ -13,6 +13,7 @@ fun main() {
     var quantidadeAnos = 0
     while (paisA.habitantes < paisB.habitantes) {
         paisA.crescerPopulacaoAnual()
+
         paisB.crescerPopulacaoAnual()
         quantidadeAnos ++
 
