@@ -10,6 +10,7 @@ fun main() {
     val paisA = Pais(habitantesPaisA, taxaCrescimento = 3.0)
     val paisB = Pais(habitantesPaisB, taxaCrescimento = 1.5)
 
+
     var quantidadeAnos = 0
     while (paisA.habitantes < paisB.habitantes) {
         paisA.crescerPopulacaoAnual()
